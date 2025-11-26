@@ -3,7 +3,7 @@
 In this folder, I am reporting how I use VMD (1.9.4) ([Download VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)) and my VMD scripts, which I run directly on my computer. <br>
 In [tips.md](tips.md), there are some tips to make your VMD visualization prettier! <br>
 <br>
-In this markdown, you can find 1) how to run scripts on VMD, 2) how I use a script to automate the screenshot of orbitals, 3) how I use a script to plot orbitals, 4) how to use VMD to plot *prettyly* your orbitals.
+In this markdown, you can find 1) how to run scripts on VMD, 2) how I use a script to automate the screenshot of orbitals, 3) how I use a script to plot orbitals, 4) how to use VMD to plot *prettily* your orbitals.
 
 ## Run and Create VMD Scripts 
 
