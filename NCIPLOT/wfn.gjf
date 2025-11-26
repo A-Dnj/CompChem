@@ -1,0 +1,10 @@
+%mem=25GB
+%chk=example.chk
+#p pbe1pbe/def2TZVP empiricaldispersion=gd3bj out=wfn
+
+title
+
+0 1
+*coordinates*
+
+example.wfn
