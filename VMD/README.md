@@ -34,7 +34,6 @@ In the last line, "cube" specifies the file type. <br>
 
 ## Automatized screenshot of XYZ files 
 The script [xyz_to_png.tcl](xyz_to_png.tcl) generates PNG screenshots of all the .xyz files in a given folder. <br>
-<br>
 ```
 $cd code_directory
 $source xyz_to_png.tcl
