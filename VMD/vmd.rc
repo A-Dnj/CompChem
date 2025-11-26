@@ -1,0 +1,79 @@
+############################################################################
+#cr                                                                       
+#cr            (C) Copyright 1995-2007 The Board of Trustees of the            
+#cr                        University of Illinois                         
+#cr                         All Rights Reserved                           
+#cr                                                                       
+############################################################################
+
+############################################################################
+# RCS INFORMATION:
+#
+#       $RCSfile: .vmdrc,v $
+#       $Author: johns $        $Locker:  $                $State: Exp $
+#       $Revision: 1.9 $      $Date: 2007/01/12 20:12:44 $
+#
+############################################################################
+# DESCRIPTION:
+#
+# VMD startup script.  The commands here are executed as soon as VMD starts up
+############################################################################
+
+# turn on lights 0 and 1
+light 0 on
+light 1 on
+light 2 off
+light 3 off
+
+# position the stage and axes
+axes location lowerleft
+stage location off
+
+# position and turn on menus
+menu main     move 5   225
+menu display  move 395 30
+menu graphics move 395 500
+menu color    move 125 225
+menu files    move 125 325
+menu labels   move 125 525
+menu render   move 125 525
+
+menu main      on
+#menu display  on
+#menu graphics on
+#menu color    on
+#menu labels   on
+#menu render   on
+#menu files    on
+
+# start the scene a-rockin'
+# rock y by 1
+
+# User's default values for newly loaded molecules/reps, etc
+#  mol default color {colorID 5}
+#  mol default style {NewCartoon 0.300000 6.000000 4.100000 0}
+#  mol default selection {name CA}
+#  mol default material {Transparent}
+
+#  New settings
+
+color change rgb pink 1.000000 0.427000 0.714000
+color Element Co pink
+color change rgb lime 0.183141 0.830846 0.363827
+color Element Fe lime
+color change rgb 10 0.254303 0.853565 0.890547
+color Element Ru cyan
+color change rgb purple 0.714000 0.522000 1.000000
+color Element Mn purple
+color change rgb silver 0.572139 0.572139 0.572139
+color Element C silver
+color change rgb blue 0.047306 0.327555 1.000000
+color Element N blue 
+rotate x by 180
+
+mol default material {AOChalky}
+mol default representation {CPK}
+mol default color {Element}
+
+# mol modstyle 0 0 CPK 1.000000 0.300000 32.000000 32.000000
+# mol modcolor 0 0 Element
