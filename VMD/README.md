@@ -1,8 +1,12 @@
 # My VMD use
 
-In this folder, I am reporting how I use VMD (1.9.4) and my VMD scripts, which I run directly on my computer. <br>
+In this folder, I am reporting how I use VMD (1.9.4) ([Download VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)) and my VMD scripts, which I run directly on my computer. <br>
 In [tips.md](tips.md), there are some tips to make your VMD visualization prettier! <br>
 <br>
+In this markdown, you can find 1) how to run scripts on VMD, 2) how I use a script to automate the screenshot of orbitals, 3) how I use a script to plot orbitals, 4) how to use VMD to plot *prettyly* your orbitals.
+
+## Run and Create VMD Scripts 
+
 To run the scripts, you need to use the TkConsole, which you can find (under Extensions): <br>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/bb573681-c247-454a-b9cc-f28f670d6393" alt="OpenTK" width="300">
@@ -18,7 +22,7 @@ To create your own scripts in the future, you should enable "Log Tcl Commands to
     <img src="https://github.com/user-attachments/assets/9ab38653-82e2-4edf-a4b4-1bd02dd1d939" alt="LogCommandsToCons" width="300">
 </p>
 
-## Automatized screenshot of orbitals 
+##  Automate the Screenshot of Orbitals
 The script [cube_to_png.tcl](cube_to_png.tcl) generates PNG screenshots of orbitals from cube files in a specified folder. <br>
 To create your cube files using Gaussian, see the cubegen command: [cubegen](https://gaussian.com/cubegen/)) <br>
 Here are the commands to use in your TK Console to use the script: <br>
@@ -32,7 +36,7 @@ With "source", you enable the script to be used. <br>
 You then use it in the appropriate folder. <br>
 In the last line, "cube" specifies the file type. <br>
 
-## Automatized screenshot of XYZ files 
+## Automatized Screenshot of XYZ Files 
 The script [xyz_to_png.tcl](xyz_to_png.tcl) generates PNG screenshots of all the .xyz files in a given folder. <br>
 ```
 $cd code_directory
@@ -42,7 +46,7 @@ $xyz_to_png xyz
 ```
 Once again, "source" enables the script to be used, and in the last line, "xyz" specifies the file type.
 
-## Plot orbitals 
+## Plot Orbitals 
 Steps to plot the orbitals:<br>
 <br>
 First, open your cube file: File>New Molecule... <br>
@@ -92,8 +96,4 @@ You have now, in the Display windows, your orbital: <br>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/5084a70c-b7bf-41f9-a81f-37a33f205950" alt="" width="300">
 </p>
-
-
-## Download VMD 
- [Click here](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD) 
 
