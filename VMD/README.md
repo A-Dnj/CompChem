@@ -1,9 +1,9 @@
 # My VMD use
 
-Here is how I use VMD (1.9.4) and my VMD scripts, which I run on my computer. <br>
+In this folder, I am reporting how I use VMD (1.9.4) and my VMD scripts, which I run directly on my computer. <br>
 In [tips.md](tips.md), there are some tips to make your VMD visualization prettier! <br>
 <br>
-To run the scripts, you need to use the TkConsole, which you can find under Extensions>TK Console: <br>
+To run the scripts, you need to use the TkConsole, which you can find (under Extensions): <br>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/bb573681-c247-454a-b9cc-f28f670d6393" alt="OpenTK" width="300">
 </p>
@@ -13,16 +13,13 @@ It looks like this: <br>
     <img src="https://github.com/user-attachments/assets/1bdf18f4-64e2-431d-9b99-619450c151ce" alt="TKConsole" width="300">
 </p>
 
-To create your own scripts in the future, you should enable "Log Tcl Commands to Console" so that each action you take is reported to the console.
+To create your own scripts in the future, you should enable "Log Tcl Commands to Console" (under File) so that each action you take is reported to the console.
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/9ab38653-82e2-4edf-a4b4-1bd02dd1d939" alt="TKConsole" width="300">
+    <img src="https://github.com/user-attachments/assets/9ab38653-82e2-4edf-a4b4-1bd02dd1d939" alt="LogCommandsToCons" width="300">
 </p>
 
-
-![vmd7](https://github.com/user-attachments/assets/705b96b1-d0b4-41c9-8b6e-431814099ce2) <br>
-
 ## Automatized screenshot of orbitals 
-The script [cube_to_png.tcl](cube_to_png.tcl) plots orbitals from cube files (see [insert cube file generator](**TO DO**)) and generates screenshots/png files to visualize the orbitals of all the cube files in a given folder. <br>
+The script [cube_to_png.tcl](cube_to_png.tcl) plots orbitals from cube files (to create your cube file using Gaussian, see the cubegen command: [cubegen](https://gaussian.com/cubegen/)) and generates screenshots/png files to visualize the orbitals of all the cube files in a given folder. <br>
 <br>
 ```
 $cd code_directory
