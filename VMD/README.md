@@ -83,10 +83,10 @@ Change "Draw" to "Solid Surface" and "Show" to "Isosurface". <br>
 To view, with color, the positive and negative signs of the orbital, change the "Coloring Method" to "ColorID". <br>
 Next to "ColorID", there is a number to choose a color. One representation should use one color (e.g., 0), and the other should use a second color (e.g., 1). <br>
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/55ec13bd-56f7-4e81-9041-2ad8a7d49bae" alt="Iso1" width="300">
+    <img src="https://github.com/user-attachments/assets/55ec13bd-56f7-4e81-9041-2ad8a7d49bae" alt="Iso1" width="150">
 </p>
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/44e187ff-3ce7-45db-a08c-39f70e0462ef" alt="Iso2" width="300">
+    <img src="https://github.com/user-attachments/assets/44e187ff-3ce7-45db-a08c-39f70e0462ef" alt="Iso2" width="150">
 </p>
 
 You have now, in the Display windows, your orbital: <br>
