@@ -6,7 +6,7 @@ In [tips.md](tips.md) are some tips to make your VMD visualization prettier! <br
 To run the scripts you need to use the TkConsole: <br>
 
 <p align="center">
-    <img src="[assets/image.png](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc)" alt="img" width="300">
+    <img src="https://github.com/user-attachments/assets/bb573681-c247-454a-b9cc-f28f670d6393" alt="vmd1" width="300">
 </p>
 
 ![vmd6](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc | height="450px") <br>
