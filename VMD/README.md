@@ -1,12 +1,16 @@
 # My VMD use
 
-Here is how I use VMD and my VMD scripts, which I run on my computer. <br>
-In [tips.md](tips.md) are some tips to make your VMD visualization prettier! <br>
+Here is how I use VMD (1.9.4) and my VMD scripts, which I run on my computer. <br>
+In [tips.md](tips.md), there are some tips to make your VMD visualization prettier! <br>
 <br>
-To run the scripts you need to use the TkConsole: <br>
-
+To run the scripts, you need to use the TkConsole, which you can find under Extensions>TK Console: <br>
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/bb573681-c247-454a-b9cc-f28f670d6393" alt="vmd1" width="300">
+    <img src="https://github.com/user-attachments/assets/bb573681-c247-454a-b9cc-f28f670d6393" alt="OpenTK" width="300">
+</p>
+
+It looks like this: <br>
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/1bdf18f4-64e2-431d-9b99-619450c151ce" alt="TKConsole" width="300">
 </p>
 
 ![vmd6](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc | height="450px") <br>
