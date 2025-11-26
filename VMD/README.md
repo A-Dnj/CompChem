@@ -4,7 +4,7 @@ Here is how I use VMD and my VMD scripts, which I run on my computer. <br>
 In [tips.md](tips.md) are some tips to make your VMD visualization prettier! <br>
 <br>
 To run the scripts you need to use the TkConsole: <br>
-![vmd6](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc) <br>
+![vmd6](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc | width=100) <br>
 ![vmd8](https://github.com/user-attachments/assets/34a40c4f-c00e-4fa9-8ef5-23fa9bcf1550) <br>
 <br>
 To be able to create your own scripts in the future you should "Log Tcl Commands to Console": <br>
