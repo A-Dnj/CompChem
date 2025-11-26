@@ -1,0 +1,6 @@
+1
+example.wfn
+FINE
+RADIUS 2.51147800 0.24618600 -0.04944500 1.6
+INTEGRATE
+ONAME example_sphere
