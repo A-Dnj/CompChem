@@ -13,10 +13,12 @@ It looks like this: <br>
     <img src="https://github.com/user-attachments/assets/1bdf18f4-64e2-431d-9b99-619450c151ce" alt="TKConsole" width="300">
 </p>
 
-![vmd6](https://github.com/user-attachments/assets/aa401b22-476d-4d15-bcbc-aadfb695b2cc | height="450px") <br>
-![vmd8](https://github.com/user-attachments/assets/34a40c4f-c00e-4fa9-8ef5-23fa9bcf1550) <br>
-<br>
-To be able to create your own scripts in the future you should "Log Tcl Commands to Console": <br>
+To create your own scripts in the future, you should enable "Log Tcl Commands to Console" so that each action you take is reported to the console.
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/9ab38653-82e2-4edf-a4b4-1bd02dd1d939" alt="TKConsole" width="300">
+</p>
+
+
 ![vmd7](https://github.com/user-attachments/assets/705b96b1-d0b4-41c9-8b6e-431814099ce2) <br>
 
 ## Automatized screenshot of orbitals 
