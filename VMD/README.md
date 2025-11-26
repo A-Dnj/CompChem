@@ -19,14 +19,18 @@ To create your own scripts in the future, you should enable "Log Tcl Commands to
 </p>
 
 ## Automatized screenshot of orbitals 
-The script [cube_to_png.tcl](cube_to_png.tcl) plots orbitals from cube files (to create your cube file using Gaussian, see the cubegen command: [cubegen](https://gaussian.com/cubegen/)) and generates screenshots/png files to visualize the orbitals of all the cube files in a given folder. <br>
-<br>
+The script [cube_to_png.tcl](cube_to_png.tcl) generates PNG screenshots of orbitals from cube files in a specified folder. <br>
+To create your cube files using Gaussian, see the cubegen command: [cubegen](https://gaussian.com/cubegen/)) <br>
+Here are the commands to use in your TK Console to use the script: <br>
 ```
 $cd code_directory
-$source cube_to_png.tcl
+$source cube_to_png.tcl 
 $cd cube_file_directory
 $cube_png cube
 ```
+With "source", you enable the script to be able to use it. <br>
+You then use it in the appropriate folder. <br>
+
 ## Automatized screenshot of xyz file 
 The script [xyz_to_png.tcl](xyz_to_png.tcl) screenshots/png files to visualize all the xyz files in a given folder. <br>
 <br>
